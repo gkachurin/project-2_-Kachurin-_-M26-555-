@@ -1,4 +1,3 @@
-```gitignore
 # Python
 __pycache__/
 *.py[cod]
@@ -15,7 +14,7 @@ env/
 .env.*
 !.env.example
 
-# Build files
+# Build
 build/
 dist/
 *.egg-info/
@@ -36,7 +35,7 @@ htmlcov/
 .idea/
 .vscode/
 
-# macOS
+# OS
 .DS_Store
 
 # Logs
@@ -45,4 +44,6 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
-.gitignore.save
+# Database
+db_meta.json
+data/
